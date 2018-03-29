@@ -34,6 +34,5 @@ public class EnemyRayCast : MonoBehaviour {
 		} else {
 			this.transform.parent.GetComponent<AIController> ().playerRaycast = false;
 		}
-		Debug.DrawRay(transform.position, fwd, Color.green);
 	}
 }

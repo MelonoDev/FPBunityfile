@@ -18,6 +18,9 @@ public class MenuAcces : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		GameObject TheMenu = GameObject.Find("MenuParent");
+		PauseController.enabled = true;
+		Time.timeScale = 1;
+		Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
